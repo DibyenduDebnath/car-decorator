@@ -53,7 +53,9 @@ function App() {
   }
 
   const handleOnSubmit = (event) =>{
+    
     event.preventDefault();
+
     let neworder = {
       orderId: nextId++,
       interiorColor: selectedInterior,
