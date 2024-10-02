@@ -27,7 +27,7 @@ function App() {
   const [inputName, setInputName] = useState("");
   const [inputEmail, setInputEmail] = useState("");
   const [inputMobile, setInputMobile] = useState("");
-  const [orders, setOrders] = useState([]);
+  const [orders, setOrders] = useState([]); //Set the orders
 
 
   const handleTabChange = (tab) => {
